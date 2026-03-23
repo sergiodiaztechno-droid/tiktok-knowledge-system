@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 TOKEN = "TU_TOKEN_AQUI"
-WEBHOOK_URL = "https://TU_SERVICIO.onrender.com/"  # Reemplaza con la URL pública de tu servicio
+WEBHOOK_URL = "https://tiktok-knowledge-system.onrender.com"  # Reemplaza con la URL pública de tu servicio
 
 # Función de inicio
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
